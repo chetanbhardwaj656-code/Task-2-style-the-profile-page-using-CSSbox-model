@@ -1,0 +1,57 @@
+/* ---------- Global Styles ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+
+/* ---------- Reusable Utility Class ---------- */
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* ---------- Profile Card ---------- */
+.profile-card {
+    background-color: #ffffff;
+    width: 350px;
+
+    /* Box Model */
+    padding: 25px;
+    border: 2px solid #dcdcdc;
+    margin: auto;
+
+    border-radius: 8px;
+}
+
+/* ---------- Text Elements ---------- */
+.profile-name {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.profile-bio {
+    padding: 10px;
+    border-left: 4px solid #3498db;
+    background-color: #eef6fc;
+    margin-bottom: 20px;
+}
+
+/* ---------- List Styling ---------- */
+.skill-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skill-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
